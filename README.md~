@@ -20,7 +20,10 @@ Run the elk cluster in your laptop. I have created the shell script for easy ins
 
 2. Then Please copy and place the elk-config folder in your home directory. It is very important, otherwise you have to change the elkstart.sh file according to the logstash configuration file location. 
 
-3. Open your terminal, and change the directory to the Scripts directory. and run elkstart.sh file using command Scripts# sh elkstart.sh 
+3. Open your terminal, and change the directory to the Scripts directory. and run elkstart.sh as a command like below.
+
+
+		root@nbabu-Ubundu:~# ~/elk-master/Scripts/sh elkstart.sh		
 
 		You can easily verify the script installation status by running docker ps command
 

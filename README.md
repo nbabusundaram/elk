@@ -1,5 +1,5 @@
 # elk
-Scripts Dictionary to setup Elastic Search , Logstash  and Kibana cluster in your Server
+Setting-up ELK (Elastic Search , Logstash  and Kibana) cluster in your Server/Laptop/VM/Whereever docker runs...
 
 
 
@@ -25,9 +25,9 @@ Run the elk cluster in your laptop. I have created the shell script for easy ins
 
 4. Now you supposed to get the running containers id as the response. If any error, please mail me nbabu.sundaram@gmail.com , i will happy to help you.
 
-5. That's all. Everything set. Open the browser, and type http://localhost:9292. You should able to kibana dashboard.
+5. That's all. Everything set. Open the browser, and type http://localhost:9292. Now, you should able see the kibana dashboard.
 
-6. If you want to stop the cluster, run the following command from the scripts folder Scripts# sh elkdown.sh
+6. If you want to tear-down the cluster, run the following command from the scripts folder Scripts# sh elkdown.sh
 
 
 

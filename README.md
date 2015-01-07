@@ -18,8 +18,18 @@ Run the elk cluster in your laptop. I have created the shell script for easy ins
 
 1. Download the Scripts folder in your preferable directory.
 
-2. Please place the elk-config folder in your home directory. It is very important, otherwise you have to change the elkstart.sh file according to the logstash configuration file location.
+2. Please place the elk-config folder in your home directory. It is very important, otherwise you have to change the elkstart.sh file according to the logstash configuration file location. You can easily verify the script installation status by running docker ps command
+
+		verify the docker ps output. It should show all three containers		
+		
+		root@nbabu-Ubundu:~# docker ps
+
+		CONTAINER ID        IMAGE                                COMMAND                CREATED             STATUS              PORTS                                                      NAMES
+		4e12015ada50        nbabusundaram/logstash:latest        "/app/bin/boot"        17 minutes ago      Up 17 minutes       9292/tcp, 0.0.0.0:9998->9998/tcp, 0.0.0.0:9999->9999/udp   nblogstash          
+		b8bf7a7a84bd        nbabusundaram/kibana:latest          "/usr/local/bin/run"   17 minutes ago      Up 17 minutes       443/tcp, 0.0.0.0:9292->80/tcp                              nbkibana            
+		8d591b8a97a7        nbabusundaram/elasticsearch:latest   "/elasticsearch/bin/   17 minutes ago      Up 17 minutes       0.0.0.0:9200->9200/tcp, 0.0.0.0:9300->9300/tcp             nbelasticsearch 
  
+
 3. Open your terminal, and change the directory to the Scripts directory. and run elkstart.sh file using command Scripts# sh elkstart.sh 
 
 4. Now you supposed to get the running containers id as the response. If any error, please mail me nbabu.sundaram@gmail.com , i will happy to help you.

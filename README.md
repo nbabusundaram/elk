@@ -37,7 +37,7 @@ Run the elk cluster in your laptop. I have created the shell script for easy ins
 		8d591b8a97a7        nbabusundaram/elasticsearch:latest   "/elasticsearch/bin/   17 minutes ago      Up 17 minutes       0.0.0.0:9200->9200/tcp, 0.0.0.0:9300->9300/tcp             nbelasticsearch 
 
 
-4. Now you supposed to get the running containers id as the response as above. Still any error, please mail me nbabu.sundaram@gmail.com , i will happy to help you.
+4. Now you supposed to get the running containers id as the response as above. Still any error, please mail me nbabu.sundaram@gmail.com , i will be happy to help you.
 
 5. That's all. Everything set. Open the browser, and type http://localhost:9292. Now, you should able see the kibana dashboard.
 

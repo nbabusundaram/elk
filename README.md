@@ -21,11 +21,13 @@ Run the elk cluster in your laptop. I have created the shell script for easy ins
 
 2. Please place the elk-config folder in your home directory. It is very important, otherwise you have to change the elkstart.sh file according to the logstash configuration file location.
  
-3. Open your terminal, and change the directory to the Scripts directory. and run elkstart.sh file using command  ###sh elkstart.sh 
+3. Open your terminal, and change the directory to the Scripts directory. and run elkstart.sh file using command Scripts# sh elkstart.sh 
 
 4. Now you supposed to get the running containers id as the response. If any error, please mail me nbabu.sundaram@gmail.com , i will happy to help you.
 
 5. That's all. Everything set. Open the browser, and type http://localhost:9292. You should able to kibana dashboard.
+
+6. If you want to stop the cluster, run the following command from the scripts folder Scripts# sh elkdown.sh
 
 
 

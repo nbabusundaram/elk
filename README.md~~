@@ -1,5 +1,10 @@
 # elk
+<<<<<<< HEAD
 Setting-up ELK (Elastic Search , Logstash  and Kibana) cluster in your Server/Laptop/VM/Whereever docker runs...
+=======
+ Setting-up ELK (Elastic Search , Logstash and Kibana) cluster in your Server/Laptop/VMs
+>>>>>>> 43dcf6e22d3da569f7b5b6136890970a33902626
+
 
 
 # Prerequisites
